@@ -1,0 +1,14 @@
+[
+    {"id":1, "nombre":"lomo a la mostaza", "precio":1560, "img":"../photo/bife.jpg", "cantidad":1},
+    {"id":2, "nombre":"brochette de cerdo", "precio":860, "img":"../photo/brochette.jpg", "cantidad":1},
+    {"id":3, "nombre":"cordero patagonico", "precio":2140, "img":"../photo/cordero.jpg", "cantidad":1},
+    {"id":4, "nombre":"empanadas de campo", "precio":460, "img":"../photo/empanadas.jpg", "cantidad":1},
+    {"id":5, "nombre":"ensalada capresse", "precio":745, "img":"../photo/ensalada.jpg", "cantidad":1},
+    {"id":6, "nombre":"falafel arabe", "precio":1100, "img":"../photo/falafel.jpg", "cantidad":1},
+    {"id":7, "nombre":"hamburguesas gourmet", "precio":1800, "img":"../photo/hamburguer.jpg", "cantidad":1},
+    {"id":8, "nombre":"casuela de mariscos", "precio":3200, "img":"../photo/mariscos.jpg", "cantidad":1},
+    {"id":9, "nombre":"pollo relleno", "precio":2550, "img":"../photo/pollo.jpg", "cantidad":1},
+    {"id":10, "nombre":"tablas frias", "precio":2800, "img":"../photo/tablas.jpg", "cantidad":1},
+    {"id":11, "nombre":"tacos guadalajara", "precio":2800, "img":"../photo/tacos.jpg", "cantidad":1},
+    {"id":12, "nombre":"pastas de la nonna", "precio":2950, "img":"../photo/tallarine.jpg", "cantidad":1}
+]

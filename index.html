@@ -4,11 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <!-- toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <!-- style -->
+    <link rel="stylesheet" href="style/main.css">
+
+    <title>Bon appetit</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Bon Appetit</h1>
+    </header>
 
+    <main>
+        <div id="imgCarrito"></div>
+
+        <!-- Contenedor de Productos -->
+        <div id="contenedorProductos"></div>
+    </main>
+
+    <!-- modal carrito -->
+    <section class="modal" id="modal">
+        <div class="modalContainer">
+
+            <div id="contenedorCarrito"></div>
+
+            <div class="botones">
+                <button id="enviar" class="volverD">Enviar</button>
+                <button id="volver" class="volver">Volver</button>
+                <button id="vaciarCarrito" class="volver">Borrar Carrito</button>
+            </div>
+            <p class="total">El total de la compra es<span id="total"></span> </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Un buen momento que debes vivir</p>
+    </footer>
+
+    <!-- toastify -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 
     <script src="js/main.js"></script>
 </body>
