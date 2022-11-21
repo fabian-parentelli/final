@@ -140,3 +140,19 @@ const calcularTotal = () => {
     })
     total.innerHTML = `$${totalCompra}`;
 }
+
+// ******************************************* Modal Final  ****************************** //
+
+const enviar = document.getElementById("enviar");
+const modalCierre = document.getElementById("modalCierre");
+const volverCierre = document.getElementById("volverCierre"); 
+
+enviar.addEventListener("click", (e) => {
+    e.preventDefault();
+    modalCierre.classList.add("modal--show");
+    modal.classList.remove("modal--show");
+})
+
+volverCierre.addEventListener("click", () => {
+    modalCierre.classList.remove("modal--show");
+})
